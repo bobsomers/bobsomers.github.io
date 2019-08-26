@@ -1,1 +1,11 @@
+title: Bob Somers' Blog
+email: bob@bobsomers.com
+description: >
+  Blog of Bob Somers.
+baseurl: ""
+url: "https://bobsomers.github.io"
+twitter_username: bobsomers
+github_username: bobsomers
+
+markdown: kramdown
 theme: minima
