@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://bobsomers.github.io"
 twitter_username: bobsomers
 github_username: bobsomers
+linkedin_username: bobsomers
 
 markdown: kramdown
 theme: minima
