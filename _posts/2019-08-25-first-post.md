@@ -1,8 +1,8 @@
 ---
 layout: post
 title: First Post
-date: 2019-08-25 17:20:00
-tags: [blog]
+date: 2019-08-25
+tags: [blog, personal]
 ---
 
 I'm setting up a blog with Jekyll, GitHub Pages, and Cloudflare. While I'm sure
