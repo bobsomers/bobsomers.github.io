@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vector from Scratch in C++, Part 1
-date: 2019-08-25
+date: 2019-08-26
 tags: [cpp, learning]
 ---
 
@@ -40,11 +40,11 @@ public:
     : capacity_(max_capacity),
       size_(0),
       data_(nullptr) {
-	  data_ = static_cast<int*>(malloc(capacity_ * sizeof(int)));    
+    data_ = static_cast<int*>(malloc(capacity_ * sizeof(int)));    
   }
   
   ~Vector() {
-	free(data_);
+    free(data_);
   }
 
 private:
@@ -118,29 +118,29 @@ public:
     : capacity_(max_capacity),
       size_(0),
       data_(nullptr) {
-	data_ = static_cast<int*>(malloc(capacity_ * sizeof(int)));    
+    data_ = static_cast<int*>(malloc(capacity_ * sizeof(int)));    
   }
   
   ~Vector() {
-	free(data_);
+    free(data_);
   }
   
   void push_back(int x) {
-	if (size_ == capacity_) {
-		// We're all full for now. Nothing we can do!
-		return;
-	}
+    if (size_ == capacity_) {
+      // We're all full for now. Nothing we can do!
+      return;
+    }
 	 
-	// Add x to the end of the array.
-	data_[size_] = x;
-	size_++;
+    // Add x to the end of the array.
+    data_[size_] = x;
+    size_++;
   }
   
   void print() {
-	for (size_t i = 0; i < size_; ++i) {
-		printf("%d ", data_[i]);
-	}
-	printf("\n");
+    for (size_t i = 0; i < size_; ++i) {
+      printf("%d ", data_[i]);
+    }
+    printf("\n");
   }
 
 private:
