@@ -1,0 +1,59 @@
+---
+permalink: /keybase.txt
+---
+==================================================================
+https://keybase.io/bobsomers
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bobsomers.com
+  * I am bobsomers (https://keybase.io/bobsomers) on keybase.
+  * I have a public key ASCgvZj4JmpWQacqQ1oo77KkVvG71UlolbLRhL-DplyigQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017c85551aa1f457d441d4e135feda24f303ba08b8a89de3d265cc1a67e98212230a",
+      "host": "keybase.io",
+      "kid": "0120a0bd98f8266a5641a72a435a28efb2a456f1bbd5496895b2d184bf83a65ca2810a",
+      "uid": "c5f77ebd999243763425db3080bf8619",
+      "username": "bobsomers"
+    },
+    "merkle_root": {
+      "ctime": 1566788316,
+      "hash": "f2d367ba825431a810549b82725993089c1bb30f5b8af1a9b3c2b4f1341b62d4492229fdd85edbc3e0f740cef7d2b5fafa8097df0869d5a4bff3a8f8601fd443",
+      "hash_meta": "e60c1dfae62a3d37351e9e55f42e2fce2fe885aaa7af7fff8c3e2f2c3ff48e8a",
+      "seqno": 6098380
+    },
+    "service": {
+      "entropy": "l2DumGkuCkc8C9zho0eZ5jPK",
+      "hostname": "bobsomers.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.3.2"
+  },
+  "ctime": 1566788324,
+  "expire_in": 504576000,
+  "prev": "2976a6bb8b8579ee6fb43ecd0e0d0b97574c95ded3b7079ecc8a012cca739c7f",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgoL2Y+CZqVkGnKkNaKO+ypFbxu9VJaJWy0YS/g6ZcooEKp3BheWxvYWTESpcCFcQgKXamu4uFee5vtD7NDg0Ll1dMld7TtweezIoBLMpznH/EILRmWUFmLVZhI9guN8KvFRTb+3AfO6Y7zAuIuopySh1+AgHCo3NpZ8RAgRX7soy6bmC5wGtQtLK0XLxD2Y6QMIxTgBLob8MOfQG6Y0rwA7cWBStXF3SdUA/nNPKKKbpbgDvNMjLuz8pXDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFY+Isol2017aTafIa45uxvFi9PyTmPLU5l1ux84EGGVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bobsomers
+
+==================================================================
