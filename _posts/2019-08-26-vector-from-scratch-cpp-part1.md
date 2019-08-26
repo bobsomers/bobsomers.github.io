@@ -44,7 +44,7 @@ public:
   }
   
   ~Vector() {
-	  free(data_);
+	free(data_);
   }
 
 private:
@@ -118,29 +118,29 @@ public:
     : capacity_(max_capacity),
       size_(0),
       data_(nullptr) {
-	  data_ = static_cast<int*>(malloc(capacity_ * sizeof(int)));    
+	data_ = static_cast<int*>(malloc(capacity_ * sizeof(int)));    
   }
   
   ~Vector() {
-	  free(data_);
+	free(data_);
   }
   
   void push_back(int x) {
-	  if (size_ == capacity_) {
-		  // We're all full for now. Nothing we can do!
-		  return;
-	  }
-	  
-	  // Add x to the end of the array.
-	  data_[size_] = x;
-	  size_++;
+	if (size_ == capacity_) {
+		// We're all full for now. Nothing we can do!
+		return;
+	}
+	 
+	// Add x to the end of the array.
+	data_[size_] = x;
+	size_++;
   }
   
   void print() {
-	  for (size_t i = 0; i < size_; ++i) {
-		  printf("%d ", data_[i]);
-	  }
-	  printf("\n");
+	for (size_t i = 0; i < size_; ++i) {
+		printf("%d ", data_[i]);
+	}
+	printf("\n");
   }
 
 private:
@@ -156,17 +156,17 @@ The `print()` function just loops over all the elements that are currently in us
 
 ```c++
 int main() {
-	Vector my_vector(10);
-	my_vector.push_back(1);
-	my_vector.push_back(2);
-	my_vector.push_back(3);
-	my_vector.print();
-	return 0;
+  Vector my_vector(10);
+  my_vector.push_back(1);
+  my_vector.push_back(2);
+  my_vector.push_back(3);
+  my_vector.print();
+  return 0;
 }
 ```
 
 ```shell
-$ g++ -Wall -Werror -o my_vector my_vector.cpp
+$ g++ -Wall -Werror -std=c++11 -o my_vector my_vector.cpp
 $ ./my_vector
 1 2 3
 ```
